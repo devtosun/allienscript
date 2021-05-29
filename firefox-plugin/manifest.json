@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+    "name": "checkgoogle",
+    "version": "1.0",
+  
+    "description": "Bu eklenti Alien Worlds icin yazilmistir.",
+  
+    "icons": {
+      "24": "check.ico"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["https://all-access.wax.io/cloud-wallet/signing/"], 
+        "js": ["check.js"]
+      }
+    ]
+  
+  }
+
+  
